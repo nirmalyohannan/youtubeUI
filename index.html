@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+        integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sideBar.css">
+    <link rel="stylesheet" href="body.css">
+
+
+
+    <title>YouTube</title>
+</head>
+
+<body id="body">
+
+    <nav class="naviBar">
+        <img onclick="clickedBackIcon()" class="ytIcons backIconResponsive d-md-none" id="backIconResponsive"
+            src="assets/icons/backIcon.svg" alt="">
+        <!-- hidden back button -->
+        <div class="navBarLeftSection d-md-flex">
+            <img class="ytIcons" src="assets/icons/menuIcon.svg" alt="">
+            <img src="assets/icons/youtubeLogo.jpg" alt="" class="headerLogo">
+        </div>
+
+        <div class="navBarMiddleSection d-md-flex">
+            <!-- search Bar -->
+            <div class="input-group searchBox ">
+                <input type="search" class="form-control rounded searchBoxInput" placeholder="Search"
+                    aria-label="Search" aria-describedby="search-addon" />
+                <button type="button" class="btn btn-outline-primary"><img class="ytIcons"
+                        src="assets/icons/searchIcon.svg" alt=""></button>
+            </div>
+            <!-- mic search -->
+            <img class="ytIcons" id="ytMic" src="assets/icons/micIcon.svg" alt="">
+        </div>
+
+
+
+        <div class="navBarRightSection d-md-flex">
+            <img class="ytIcons" onclick="clickedSearchIcon()" id="searchIconResponsive"
+                src="assets/icons/searchIcon.svg" alt="">
+            <!-- hidden search icon -->
+            <img class="ytIcons" src="assets/icons/createVideoIcon.svg" alt="">
+
+            <img class="ytIcons" src="assets/icons/notificationIcon.svg " alt="">
+
+            <img class="ytIcons" src="assets/icons/profileIcon.png" alt="">
+        </div>
+
+    </nav>
+    <div class="tagsHeader">
+        <div>All</div>
+        <div>Google Pixel</div>
+        <div>Gadgets</div>
+        <div>Gaming</div>
+        <div>Programming</div>
+        <div>Surface Pro</div>
+        <div>Electronics</div>
+
+
+        <div>Google Pixel</div>
+        <div>Gadgets</div>
+        <div>Gaming</div>
+        <div>Programming</div>
+        <div>Surface Pro</div>
+        <div>Electronics</div>
+
+
+        <div>Google Pixel</div>
+        <div>Gadgets</div>
+        <div>Gaming</div>
+        <div>Programming</div>
+        <div>Surface Pro</div>
+        <div>Electronics</div>
+
+        <div>Google Pixel</div>
+        <div>Gadgets</div>
+        <div>Gaming</div>
+        <div>Programming</div>
+        <div>Surface Pro</div>
+        <div>Electronics</div>
+    </div>
+
+    <!-- END OF HEADER -->
+    <!-- START ---------OF--------- SIDEBAR -->
+    <!-- MINI SIDEBAR -->
+    <div class="d-none d-md-flex flex-column sideBarMini">
+
+        <div class="sideBarCategory"><img src="assets/icons/homeIcon.svg" alt="">
+            <h6>Home</h6>
+        </div>
+        <div class="sideBarCategory"><img src="assets/icons/exploreIcon.svg" alt="">
+            <h6>Explore</h6>
+        </div>
+        <div class="sideBarCategory"><img src="assets/icons/shortsIcon.svg" alt="">
+            <h6>Shorts</h6>
+        </div>
+        <div class="sideBarCategory"><img src="assets/icons/subscriptionIcon.svg" alt="">
+            <h6>subscriptions</h6>
+        </div>
+        <div class="sideBarCategory"><img src="assets/icons/libraryIcon.svg" alt="">
+            <h6>librarys</h6>
+        </div>
+    </div>
+
+
+    <!-- END ----------------OF----------SIDEBAR -->
+    <div class="bodyContent">
+        <div class="cardsParent row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 ytCard">
+                <img src="assets/dummyDATA/TN1.jpg" class="ytThumbnail">
+                <div class="ytCard1stLine">
+                    <img class="ytChannelLogo" src="assets/dummyDATA/CH1.jpg" alt="">
+                    <h6 class="ytVideoTitle">Oh Super Nova (Title Track) - Video
+                        Song | Ayan | Suriya | Tamannaah |...</h6>
+                </div>
+                <h6 class="ytCardChannelName">Sun Music</h6>
+                <h6 class="ytCardViewAndTime">430K views . 11 days ago</h6>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

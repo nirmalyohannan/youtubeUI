@@ -1,0 +1,53 @@
+.bodyContent{
+    background-color: rgb(249, 249, 249);
+    width: calc(100%-80px);/*to be resp */
+    /* margin-top: 80px; */
+    z-index: -1;
+    position: relative;
+    top: 130px;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x:hidden ;
+}
+
+.ytCard{
+    
+    /* border: 1px solid; */
+    margin-bottom: 1px;
+    
+}
+.cardsParent{
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.ytThumbnail{
+    max-width: 100%;
+}
+.ytCard1stLine{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.ytChannelLogo{
+    border-radius: 50px;
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+.ytVideoTitle{
+    padding-left: 15px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+}
+.ytCard>h6{
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0px;
+    margin-top: 3px;
+    margin-left: 55px;
+
+
+}
