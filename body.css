@@ -14,11 +14,11 @@
 .ytCard{
     
     /* border: 1px solid; */
-    margin-bottom: 1px;
+    margin-bottom: 40px;
+
     
 }
 .cardsParent{
-    justify-content: space-between;
     align-content: space-between;
 }
 
