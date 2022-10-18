@@ -15,6 +15,7 @@ function clickedBackIcon() {
     "flex";
   document.getElementsByClassName("navBarRightSection")[0].style.display =
     "flex";
+
   document.getElementsByClassName("naviBar")[0].style.justifyContent =
     "space-between";
   document.getElementsByClassName("navBarMiddleSection")[0].style.display =
